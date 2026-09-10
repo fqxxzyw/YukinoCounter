@@ -1,0 +1,16 @@
+target/
+.idea/
+*.iml
+.tools/
+dist/
+dist*/
+release*/
+installer/
+installer*/
+qa-run*/
+*.log
+KMCounter.ini
+*.db
+*.db-shm
+*.db-wal
+.vscode/

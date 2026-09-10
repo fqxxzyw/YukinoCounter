@@ -1,0 +1,31 @@
+#include <windows.h>
+
+1 ICON "assets/YukinoCounter.ico"
+
+1 VERSIONINFO
+ FILEVERSION 1,1,1,0
+ PRODUCTVERSION 1,1,1,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "Yukino Counter\0"
+            VALUE "FileDescription", "Yukino Counter Portable\0"
+            VALUE "FileVersion", "1.1.1\0"
+            VALUE "InternalName", "YukinoCounterPortable\0"
+            VALUE "OriginalFilename", "YukinoCounter-Portable-1.1.1.exe\0"
+            VALUE "ProductName", "Yukino Counter\0"
+            VALUE "ProductVersion", "1.1.1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 1200
+    END
+END
